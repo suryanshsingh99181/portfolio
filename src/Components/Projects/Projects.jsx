@@ -5,6 +5,7 @@ import proj3 from "../../assets/3.png";
 import proj4 from "../../assets/6.png";
 import proj5 from "../../assets/4.jpeg";
 import proj6 from "../../assets/5.jpg";
+import proj7 from "../../assets/proj7.png";
 
 const Projects = () => {
   return (
@@ -65,6 +66,17 @@ const Projects = () => {
             srcLink="https://github.com/suryanshsingh99181/amazon-clone-UI"
           />
         </div>
+
+        {/* page 4 */}
+        <div id="item4" className="carousel-item w-full justify-evenly">
+          <ProjectCard
+            imgSrc={proj7}
+            title="Image Processor"
+            main="Tech Stack: ReactJs,Typescript, Multer, Sharp, NodeJs & TailwindCss"
+            demoLink="https://image-processor-tawny.vercel.app/"
+            srcLink="https://github.com/suryanshsingh99181/image-processor"
+          />
+        </div>
       </div>
       <div className="flex w-full justify-center gap-2 py-2">
         <a href="#item1" className="btn btn-md btn-outline btn-error">
@@ -75,6 +87,9 @@ const Projects = () => {
         </a>
         <a href="#item3" className="btn btn-md btn-outline btn-error">
           3
+        </a>
+        <a href="#item4" className="btn btn-md btn-outline btn-error">
+          4
         </a>
       </div>
     </div>
