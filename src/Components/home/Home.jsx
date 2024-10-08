@@ -26,7 +26,7 @@ const Home = () => {
         </a>
         <a
           className=" bg-blue-500 mt-5 ml-4 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:px-4 hover: duration-200 hover:bg-transparent hover:border-2 hover:border-[#FF7C00] font-semibold rounded-3xl"
-          href="https://github.com/suryanshsingh99181/resume_/blob/main/Suryansh%20Singh%20Resume.pdf"
+          href="https://github.com/suryanshsingh99181/resume_/blob/main/Suryansh%20Singh_Resume.pdf"
         >
           Resume
         </a>
