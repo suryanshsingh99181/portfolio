@@ -22,7 +22,7 @@ const Footer = () => {
         </h3>
       </div>
       <HiOutlineArrowUpCircle
-        className="text-6xl opacity-45 font-thin hover:"
+        className="text-6xl bg-black rounded-full opacity-45 font-thin hover:"
         title="scroll up"
         onClick={handleScrollTop}
       />

@@ -4,6 +4,7 @@ import Home from "./Components/home/Home";
 import Navbar from "./Components/navbar/Navbar";
 import Projects from "./Components/Projects/Projects";
 import Skills from "./Components/skills/Skills";
+import ToggleProject from "./Components/ToggleProject";
 import "./index.css";
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
       <Home></Home>
       <Experience></Experience>
       <Skills></Skills>
-      <Projects></Projects>
+      <ToggleProject />
       <Footer></Footer>
     </div>
   );

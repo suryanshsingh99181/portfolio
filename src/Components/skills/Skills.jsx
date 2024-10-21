@@ -24,7 +24,9 @@ const Skills = () => {
       id="Skills"
       className="p-10 md:p-24 bg-gradient-to-tr from-black to to-slate-600"
     >
-      <h1 className="text-2xl md:text-4xl text-white font-bold">Skills</h1>
+      <h1 className="text-2xl md:text-5xl text-white font-bold  pl-52 ">
+        Skills
+      </h1>
       <div className="mt-5">
         <div className=" flex flex-wrap justify-evenly w-auto gap-2">
           <div className="w-1/4">
