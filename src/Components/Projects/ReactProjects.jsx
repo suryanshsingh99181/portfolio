@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import proj1 from "../../assets/proj11.png";
 import proj2 from "../../assets/2.jpg";
 import proj3 from "../../assets/3.png";
 import proj7 from "../../assets/proj7.png";
@@ -38,13 +39,12 @@ const ReactProjects = () => {
 
         <div id="item2" className="carousel-item w-full justify-evenly">
           <ProjectCard
-            imgSrc={proj8}
-            title="Myntra Functional React Clone"
-            main="Tech Stack: React.Js, Redux, Node.Js & Bootstrap"
-            demoLink="https://myntra-functional-clone-react.vercel.app/"
-            srcLink="https://suryanshsingh99181.github.io/myntra-funtional-clone-react/"
+            imgSrc={proj1}
+            title="Authentication with firebase"
+            main="Tech Stack: React.Js & Firebase Auth"
+            demoLink="https://social-media-app-2015a.web.app/login"
+            srcLink="https://github.com/suryanshsingh99181/Authentication-App-Firebase"
           />
-
           <ProjectCard
             imgSrc={proj2}
             title="Social Media App"
@@ -81,6 +81,14 @@ const ReactProjects = () => {
             demoLink=""
             srcLink="https://github.com/suryanshsingh99181/todo_app-react"
           />
+          <ProjectCard
+            imgSrc={proj8}
+            title="Myntra Functional React Clone"
+            main="Tech Stack: React.Js, Redux, Node.Js & Bootstrap"
+            demoLink="https://myntra-functional-clone-react.vercel.app/"
+            srcLink="https://suryanshsingh99181.github.io/myntra-funtional-clone-react/"
+          />
+          
         </div>
       </div>
       <div className="absolute float-right right-5 top-1/2 flex flex-col justify-center gap-2 py-2">
